@@ -1,7 +1,3 @@
-const keepAlive = require('./keep_alive.js');
-
-keepAlive();
-
 const { Client, GatewayIntentBits, ChannelType } = require('discord.js');
 const { google } = require('googleapis');
 require('dotenv').config();
