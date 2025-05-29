@@ -11,7 +11,7 @@ const youtube = google.youtube({
 });
 
 // Constants
-const CHANNEL_NAME_TEMPLATE = "🟥\u00A0Subs: ";
+const CHANNEL_NAME_TEMPLATE = "🟥┊Subs: ";
 const POLL_INTERVAL = 10 * 60 * 1000; // 10 minutes
 
 // Format subscriber count
